@@ -1,0 +1,32 @@
+#navbar {
+      padding: 15px 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+#darkDiv {
+      padding: 0;
+      font-size: 15px;
+      font-weight: 600;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+}
+
+#darkDiv-inputDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+      #navbar {
+            padding: 15px 1rem;
+      }
+
+      #darkDiv {
+            font-size: 12px;
+      }
+}

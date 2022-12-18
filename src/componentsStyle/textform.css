@@ -1,0 +1,18 @@
+.btnDiv{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+}
+@media screen and (max-width: 450px) {
+      .button {
+            width: 145px;
+            font-size: 15px;
+      }
+      .button2 {
+            width: 84%;
+      }
+      #h1{
+            font-size: 20px;
+      }
+}

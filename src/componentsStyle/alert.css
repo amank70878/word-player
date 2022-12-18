@@ -1,0 +1,10 @@
+#strong{
+      position: absolute;
+      z-index: 100;
+      width: 100vw;
+}
+@media screen and (max-width: 450px) {
+      #strong {
+        font-size: 13px;
+      }
+}
